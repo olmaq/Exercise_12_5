@@ -11,7 +11,7 @@ function createTweet(input) {
 	var quoteText = $(data.content).text().trim();
 	var quoteAuthor = data.title;
 
-	if (!quoteAuthor.lenght) {
+	if (!quoteAuthor.length) {
 		quoteAuthor = "Unknown author";
 	};
 
